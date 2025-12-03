@@ -1,8 +1,9 @@
-import { Text, View } from "react-native";
+import Onboarding from "@/src/screen/Onboarding";
+import { SafeAreaView } from "react-native-safe-area-context";
 export default function Index() {
   return (
-    <View className="flex-1 items-center justify-center bg-gray-100">
-      <Text>Abdullah</Text>
-    </View>
+    <SafeAreaView className="bg-[#212832] px-12 flex-1 items-center justify-center">
+      <Onboarding />
+    </SafeAreaView>
   );
 }

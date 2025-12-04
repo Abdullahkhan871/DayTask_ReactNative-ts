@@ -1,9 +1,9 @@
-import SignIn from "@/src/screen/auth/SignIn";
+import SignUp from "@/src/screen/auth/SignUp";
 import { SafeAreaView } from "react-native-safe-area-context";
 export default function Index() {
   return (
-    <SafeAreaView className="h-screen bg-[#212832] px-6 flex-1 justify-center">
-      <SignIn />
+    <SafeAreaView className="flex-1 bg-[#212832] px-6 py-2">
+      <SignUp />
     </SafeAreaView>
   );
 }
